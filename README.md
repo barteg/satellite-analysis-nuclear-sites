@@ -21,25 +21,6 @@ NDVI = (NIR − Red) / (NIR + Red + ε)
 
 Where `ε` is a small number (e.g., 1e-6) to avoid division by zero.
 
-## File Structure
-
-```text
-project/
-│
-├── data/
-│   └── ...        # GeoTIFF files for different years
-│
-├── scripts/
-│   └── ndvi_analysis.ipynb  # Jupyter Notebook with full analysis
-│
-├── outputs/
-│   ├── ndvi_plots/          # Yearly NDVI maps
-│   ├── ndvi_difference.png  # Difference plot (e.g., 2023 - 2020)
-│   └── ndvi_video.mp4       # Animated time-lapse
-│
-├── aoi.geojson              # Area of Interest polygon used for downloads
-└── README.md                # Project documentation
-```
 
 Dependencies
 Install required packages using:
