@@ -68,6 +68,17 @@ Create NDVI Time-Lapse
 ``` python
 create_ndvi_video(ndvi_data, output_path='outputs/ndvi_video.mp4', fps=1)
 ```
+
+## Preview
+
+NDVI change over time:
+
+![ndvi_change.gif](images/ndvi_change.gif)
+
+NDVI change compared to year before:
+
+![ndvi_diff.gif](images/ndvi_diff.gif)
+
 Area of Interest (AOI)
 To consistently download data for the same location, the project uses this bounding box:
 
@@ -81,4 +92,4 @@ License
 This project is provided for educational and research purposes. No commercial use without permission.
 
 Author: Bartosz Janikula
-Contact: [your email or GitHub]
+Contact: bartekjanikula@gmail.com
